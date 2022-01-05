@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.25" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ToBot\project\ToBot.Plugins\ToBot.Plugins.Common\ToBot.Plugin\ToBot.Plugin.csproj" />
+    <ProjectReference Include="..\..\ToBot\project\ToBot.Plugins\ToBot.Plugins.Specific\ToBot.Plugin.GenericScrapperPlugin\ToBot.Plugin.GenericScrapperPlugin.csproj" />
+  </ItemGroup>
+
+</Project>
